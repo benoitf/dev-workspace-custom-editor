@@ -1,0 +1,10 @@
+schemaVersion: 2.1.0
+metadata:
+  name: my-dummy-project
+components:
+  - name: tools
+    container:
+      image: quay.io/fbenoit/alpine:libstdc
+      memoryLimit: 1Gi
+      cpuLimit: 1500m
+      cpuRequest: 600m
