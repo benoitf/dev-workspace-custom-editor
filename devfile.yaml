@@ -8,3 +8,4 @@ components:
       memoryLimit: 1Gi
       cpuLimit: 1500m
       cpuRequest: 600m
+      command: ["tail", "-f", "/dev/null"]
